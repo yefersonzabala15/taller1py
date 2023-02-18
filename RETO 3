@@ -1,0 +1,9 @@
+import random
+
+# Simular 5 lanzamientos de dados
+for i in range(5):
+    resultado = random.randint(1, 6)
+    print("Lanzamiento", i+1, ": el resultado es", resultado)
+
+
+ 

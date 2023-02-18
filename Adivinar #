@@ -1,0 +1,21 @@
+import random
+
+def lanzamineto_de_moneda:
+
+opciones = ["cara", "sello"]
+
+eleccion = ("¿que elieges, cara o sello:")
+
+resultado = random.choice(opciones)
+
+print(f"la moneda cayo en {resultado}." )
+
+if eleccion.lower() == resultado:
+        print("¡acertaste!")
+else:
+        print("no acertaste")
+
+# Se ejecuta la simulación
+lanzamiento_de_moneda()
+
+
